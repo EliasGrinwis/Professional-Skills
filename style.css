@@ -1,0 +1,23 @@
+h1 {
+    font-size: 3rem;
+}
+
+.text {
+    font-size: 1.2rem;
+    max-width: 500px;
+    text-align: center;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+}
+
+.favicon {
+    font-size: 3rem;
+}
+
+.text-header {
+    text-align: justify;
+}
+
