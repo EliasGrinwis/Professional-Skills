@@ -19,81 +19,159 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn.myonlinestore.eu/948b7b52-6be1-11e9-a722-44a8421b9960/favicon.ico?t=1647539840" />
+
+
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
-    <div class="container" style="max-width: 1600px">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+
+<nav class="navbar navbar-expand-lg navbar-light shadow-0">
+    <div class="container">
+        <a class="navbar-brand" href="#!"><span class="header">Sus &amp; Mus</span><span style="color: #fff;">logist</span></a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Welkom</a>
+                    <a class="nav-link" href="#welkom">Welkom</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Shopavond</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Shop
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <a class="nav-link" href="#!">Shop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#!">Nieuw</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#!">Contact</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success bg-dark" type="submit">Search</button>
-            </form>
+            <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="#!">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link" href="https://www.facebook.com/handgemaaktejuwelen/">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                    <a class="nav-link instagram-logo" href="https://www.instagram.com/susenmus/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
 
 <div class="w3-content" style="max-width:1600px">
 
-    <!-- Header -->
-    <header class="w3-container w3-center w3-padding-48 w3-white">
-        <h1 class="w3-xxxlarge"><b>SUS &amp; MUS</b></h1>
-        <h6>Juwelen, handtassen, sjaals en accessoires</h6>
-    </header>
-
-    <div class="d-flex justify-content-center">
-        <a href="https://www.instagram.com/susenmus/"><p class="p-3 favicon w3-hover-black"><i class="fa-brands fa-instagram"></i></p></a>
-        <a href="https://www.facebook.com/handgemaaktejuwelen/"><p class="p-3 favicon w3-hover-black"><i class="fa-brands fa-facebook"></i></p></a>
-    </div>
-
     <!-- Image header -->
     <header class="w3-display-container w3-wide" id="home">
-        <img class="w3-image" src="Fotos/nl_NL_673093_full.webp" alt="Fashion Blog" width="1600" height="1060">
+        <img class="w3-image w3-opacity " src="Fotos/nl_NL_673093_full.webp" alt="Fashion Blog" width="1600" height="1060">
         <div class="w3-display-middle w3-padding-large text-center grote">
-            <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>Sus &amp; Mus</b></h1>
-            <h6><a href="#"><button class="w3-button w3-black w3-padding-large w3-large w3-hover-opacity-off">SHOP NOW</button></a></h6>
+            <h1 class="w3-jumbo w3-text-black w3-hide-small"><b>Sus &amp; Mus</b></h1>
+            <h5>Juwelen, handtassen, sjaals en accessoires</h5>
+            <h6 class="w3-padding-large"><a href="#"><button class="w3-button w3-black w3-padding-large w3-large w3-hover-opacity-off">SHOP NOW</button></a></h6>
         </div>
     </header>
 </div>
 
-<div class="w3-content " style="max-width: 1200px">
-    <h1 class="w3-padding-top-32">Welkom bij Sus & Mus </h1>
-    <p class="text-header" style="max-width: 600px">
-        Sus & Mus is 9 jaar geleden ontstaan door voor mezelf wat oorbellen te maken.
-        Daarna ook voor vriendinnen, heb er homepartys en markten mee gedaan en nu heb ik een eigen winkeltje in Nijlen
-        en een afdeling in Wijnegem shoppingcenter bij CDKN with friends.
-        Vandaag is het handgemaakte nog steeds aanwezig maar aangevuld met juwelen en accessoires voor ieders stijl.
-        Waaronder kleding,  sjaal, handtassen, juweelhouders.
-    </p>
+<section>
+    <div class="container vertical-align" align="center">
+        <div class="row align-items-center">
+            <div class="col-sm-6 padding-main">
+                <h1 class="w3-padding-top-32" id="welkom">Welkom bij Sus & Mus </h1>
+                <p class="text-header" align="justify" style="max-width: 600px">
+                    Sus & Mus is 9 jaar geleden ontstaan door voor mezelf wat oorbellen te maken.
+                    Daarna ook voor vriendinnen, heb er homepartys en markten mee gedaan en nu heb ik een eigen winkeltje in Nijlen
+                    en een afdeling in Wijnegem shoppingcenter bij CDKN with friends.
+                    Vandaag is het handgemaakte nog steeds aanwezig maar aangevuld met juwelen en accessoires voor ieders stijl.
+                    Waaronder kleding,  sjaal, handtassen, juweelhouders.
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-6 padding-main">
+                <img src="Fotos/evi.jpg" style="height: 75%; width: 75%; object-fit: contain;opacity:1;margin:0; " alt="mainfoto">
+            </div>
+        </div>
+    </div>
+</section>
 
+
+<div>
 </div>
+
+<div class="parent">
+
+    <div class="container">
+        <div class="row">
+            <div class="row text-center col-lg-6">
+                <h2 class="w3-text-black openingsuren">Afspraak</h2>
+                <p class="textgrote"> Je kan ook op afspraak komen. <i class="fas fa-phone w3-text-black "></i><a class="w3-text-black phone grote" href="tel:0496123897"> 0496/12 38 97</a></p>
+            </div>
+
+            <div class="row text-center col-lg-6">
+                <h2 class="text-center w3-text-black openingsuren">Openingsuren</h2>
+                <p class="col-md-6 w3-text-white textgrote">Maandag</p>
+                <p class="col-md-6 w3-text-white textgrote">Gesloten</p>
+                <p class="col-md-6 w3-text-white textgrote">Dinsdag</p>
+                <p class="col-md-6 w3-text-white textgrote">Gesloten</p>
+                <p class="col-md-6 w3-text-white textgrote">Woensdag</p>
+                <p class="col-md-6 w3-text-white textgrote">10:00 - 17:00</p>
+                <p class="col-md-6 w3-text-white textgrote">Donderdag</p>
+                <p class="col-md-6 w3-text-white textgrote">18:00 - 20:00</p>
+                <p class="col-md-6 w3-text-white textgrote">Vrijdag</p>
+                <p class="col-md-6 w3-text-white textgrote">Gesloten</p>
+                <p class="col-md-6 w3-text-white textgrote">Zaterdag</p>
+                <p class="col-md-6 w3-text-white textgrote">10:00 - 17:00</p>
+                <p class="col-md-6 w3-text-white textgrote">Zondag</p>
+                <p class="col-md-6 w3-text-white textgrote">Gesloten</p>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<p class="text-center"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2502.1441677709627!2d4.652753966270438!3d51.16113149032178!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbabecdf719622913!2sSus%20%26%20Mus!5e0!3m2!1snl!2sbe!4v1648295358032!5m2!1snl!2sbe" width="100%" height="500" style="border:0"; allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+
+<div class="parent">
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-6">
+                <h3>Social Media</h3>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a class="w3-text-black w3-hover-text-white" href="https://www.instagram.com/susenmus/"><p class="icongrote"><i class="fab fa-instagram"><br><span class="instagram">Instagram</span></i></p></a>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <a class="w3-text-black w3-hover-text-white" href="https://www.facebook.com/handgemaaktejuwelen/"><p class="icongrote"><i class="fa-brands fa-facebook"><br><span class="facebook">Facebook</span></i></p></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <h3>Contact</h3>
+                <p><i class="fa-solid fa-location-dot maxgrote"></i> Koningsbaan 57 <br> 2560 Nijlen</p>
+                <p><a class="w3-text-black phone2 w3-hover-text-white" href="tel:0496123897"><i class="fa-solid fa-phone"></i> 0496/12 38 97</a></p>
+                <p><a class="w3-text-black phone2 w3-hover-text-white" href="mailto:susenmus@hotmail.com"><i class="fa-solid fa-envelope"></i> susenmus@hotmail.com</a></p>
+            </div>
+        </div>
+
+        <p>2017 - 2022 Sus &amp; Mus</p>
+    </div>
+</div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
