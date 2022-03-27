@@ -20,14 +20,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="https://cdn.myonlinestore.eu/948b7b52-6be1-11e9-a722-44a8421b9960/favicon.ico?t=1647539840" />
-
-
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light shadow-0">
+
+<nav class="navbar navbar-expand-lg navbar-light shadow-0 fixed-top background-white">
     <div class="container">
         <a class="navbar-brand" href="index.html"><span class="header margin-right">Sus &amp; Mus</span></a>
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -76,7 +76,9 @@
     </div>
 </nav>
 
-<div class="w3-content" style="max-width:1600px">
+
+
+<div class="w3-content padding-header" style="max-width:1600px">
 
     <!-- Image header -->
     <header class="w3-display-container w3-wide" id="home">
@@ -91,6 +93,7 @@
         </div>
     </header>
 </div>
+
 
 <section id="welkom" class="w3-padding-top-24">
     <div class="container vertical-align" align="center">
@@ -115,18 +118,18 @@
     </div>
 </section>
 
-<div class="div padding-main w3-padding-top-64">
-    <img src="Fotos/foto1.jpg" style="width: 25%; height: 25%" alt="">
-    <img src="Fotos/foto2.jpg" style="width: 25%; height: 25%" alt="">
-    <img src="Fotos/foto3.jpg" style="width: 25%; height: 25%" alt="">
-    <img src="Fotos/foto4.jpg" style="width: 25%; height: 25%" alt="">
+<div id="shopavond" class="div padding-main w3-padding-top-64">
+    <img src="Fotos/foto1.jpg" style="width: 25%; height: 25%" alt="foto1">
+    <img src="Fotos/foto2.jpg" style="width: 25%; height: 25%" alt="foto2">
+    <img src="Fotos/foto3.jpg" style="width: 25%; height: 25%" alt="foto3">
+    <img src="Fotos/foto4.jpg" style="width: 25%; height: 25%" alt="foto4">
 </div>
 
 
 
 <div class="container padding-main " align="center">
     <div>
-        <h2 class="shopavond" id="shopavond">Wat is een shopavond ?</h2>
+        <h2 class="shopavond">Wat is een shopavond ?</h2>
         <p>Heb je zin in een gezellige shopavond leg dan een avondje Sus & Mus vast.</p>
         <p>Nodig vriendinnen en familie uit en ik maak een gezellige prive shop avond van .</p>
         <p>Ik vorzien een hapje en een drankje .</p>
@@ -145,7 +148,7 @@
             </div>
 
             <div class="row text-center col-lg-6">
-                <h2 class="col-12 text-left w3-text-black openingsuren">Openingsuren</h2>
+                <h2 class="col-12 text-center w3-text-black openingsuren">Openingsuren</h2>
                 <p class="col-6 w3-text-white textgrote">Maandag</p>
                 <p class="col-6 w3-text-white textgrote">Gesloten</p>
                 <p class="col-6 w3-text-white textgrote">Dinsdag</p>
@@ -171,39 +174,37 @@
 
 
 <section class="parent">
-
-    <div class="container vertical-align" align="center">
-        <div class="row align-items-center">
-            <div class="col-md-6 padding-main">
+    <div class="container">
+        <div class="row padding-main">
+            <div class="row text-center col-md-6">
                 <h3>Social Media</h3>
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <a class="w3-text-black w3-hover-text-white" href="https://www.instagram.com/susenmus/">
-                            <p class="icongrote"><i class="fab fa-instagram"><br><span class="instagram">Instagram</span></i></p></a>
-                    </div>
-
-                    <div class="col-md-6">
-                        <a class="w3-text-black w3-hover-text-white" href="https://www.facebook.com/handgemaaktejuwelen/">
+                <div class="col-md-6">
+                    <a class="w3-text-black w3-hover-text-white" href="https://www.instagram.com/susenmus/">
+                        <p class="icongrote"><i class="fab fa-instagram"><br><span class="instagram">Instagram</span></i></p></a>
+                </div>
+                <div class="col-md-6">
+                    <a class="w3-text-black w3-hover-text-white" href="https://www.facebook.com/handgemaaktejuwelen/">
                         <p class="icongrote"><i class="fa-brands fa-facebook"><br><span class="facebook">Facebook</span></i></p></a>
-                    </div>
                 </div>
             </div>
-            <div class="col-md-6 padding-main">
+            <div class="row text-center col-md-6">
                 <h3>Contact</h3>
+                <div>
                     <p><i class="fa-solid fa-location-dot maxgrote"></i> Koningsbaan 57 <br> 2560 Nijlen <br>                     <a class="w3-text-black phone2 w3-hover-text-white" href="tel:0496123897"><i class="fa-solid fa-phone"></i> 0496/12 38 97</a>
                         <br> <a class="w3-text-black phone2 w3-hover-text-white" href="mailto:susenmus@hotmail.com"><i class="fa-solid fa-envelope"></i> susenmus@hotmail.com</a>
                     </p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="darkColor">
-        <p align="center"><i class="fa-solid fa-copyright"></i> 2017 - 2022 Sus &amp; Mus</p>
+    <div class="darkColor d-flex align-items-center justify-content-center padding-footer">
+        <div><i class="fa-solid fa-copyright"></i> 2017 - 2022 Sus &amp; Mus </div>
     </div>
+
 </section>
 
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+<script src="init.js"></script>
 
 </body>
 </html>

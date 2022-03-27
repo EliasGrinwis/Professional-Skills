@@ -212,7 +212,32 @@ div {
     font-size: 22px;
 }
 
+.padding-header {
+    padding-top: 80px;
+}
 
+.background-white {
+    background: #fff;
+}
+
+.darkColor {
+    display: flex;
+    align-items: center;
+}
+
+.padding-footer {
+    padding: 15px;
+}
+
+.h3 {
+    font-size: 22pt;
+}
+
+@media (min-width: 500px) {
+    #button-top {
+        margin: 30px;
+    }
+}
 
 @media screen and (max-width: 1200px) {
     .grote {
@@ -278,4 +303,10 @@ div {
         font-size: 32px;
     }
 
+}
+
+@media screen and (max-width: 394px) {
+    .textgrote {
+        font-size: 15px;
+    }
 }
