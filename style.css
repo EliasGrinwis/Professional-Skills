@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
 h1 {
     font-size: 3rem;
 }
@@ -41,6 +44,12 @@ nav ul li:hover {
     font-size: 35px;
     font-weight: bold;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.susenmus {
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .textgrote {
@@ -111,6 +120,8 @@ nav ul li:hover {
 
 .shopavond {
     font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 div {
@@ -130,6 +141,77 @@ div {
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
 }
+
+.margin-right {
+    margin-right: 60px;
+}
+
+.padding-left {
+    padding-left: 20px;
+}
+
+.mainfoto {
+    -webkit-filter: brightness(100%);
+
+}
+
+.button {
+    display: inline-flex;
+    height: 60px;
+    width: 180px;
+    border: 2px solid #BFC0C0;
+    margin: 20px 20px 20px 20px;
+    color: #BFC0C0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 8rem;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#button-3 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#button-3 a {
+    position: relative;
+    transition: all .45s ease-Out;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#circle {
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #BFC0C0;
+    position: absolute;
+    transition: all .5s ease-Out;
+    top: 20px;
+    left: 70px;
+}
+
+#button-3:hover #circle {
+    width: 200%;
+    height: 500%;
+    opacity: 1;
+    top: -70px;
+    left: -70px;
+}
+
+#button-3:hover a {
+    color: #2D3142;
+    font-size: 22px;
+}
+
 
 
 @media screen and (max-width: 1200px) {
