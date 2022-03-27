@@ -233,6 +233,10 @@ div {
     font-size: 22pt;
 }
 
+.padding-left2 {
+    padding-left: 50px;
+}
+
 @media (min-width: 500px) {
     #button-top {
         margin: 30px;
