@@ -311,6 +311,10 @@ div {
         text-align: center;
     }
 
+    .eviDiv {
+        text-align: center;
+    }
+
     .vertical-line p {
         text-align: center;
     }
@@ -324,6 +328,10 @@ div {
 @media screen and (min-width: 768px) {
     .susenmus {
         font-size: 32px;
+    }
+
+    .eviDiv {
+        text-align: right;
     }
 
 }
