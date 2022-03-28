@@ -77,7 +77,6 @@ nav ul li:hover {
 }
 
 
-
 .instagram {
     font-size: 12px;
 }
@@ -121,6 +120,11 @@ nav ul li:hover {
     font-size: 38px;
     font-family: 'Roboto', sans-serif;
 
+}
+
+.paddingLengte {
+    padding-top: 65px;
+    padding-bottom: 65px;
 }
 
 div {
@@ -325,18 +329,23 @@ div {
 
 }
 
+
 @media screen and (min-width: 768px) {
     .susenmus {
-        font-size: 32px;
+        font-size: 38px;
     }
 
     .eviDiv {
         text-align: right;
     }
 
+    .vertical-line p {
+        text-align: justify;
+    }
+
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 993px) {
     .susenmus {
         font-size: 32px;
     }
@@ -348,3 +357,4 @@ div {
         font-size: 15px;
     }
 }
+
