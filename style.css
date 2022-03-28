@@ -237,6 +237,10 @@ div {
     padding-left: 50px;
 }
 
+.align-center {
+    text-align: center;
+}
+
 @media (min-width: 500px) {
     #button-top {
         margin: 30px;
