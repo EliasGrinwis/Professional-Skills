@@ -36,6 +36,10 @@ nav ul li:hover {
     font-weight: bold;
 }
 
+.groteNav {
+    font-size: 30px;
+}
+
 .parent {
     background-color: cadetblue;
 }
