@@ -40,6 +40,10 @@ nav ul li:hover {
     font-size: 30px;
 }
 
+.padding-right {
+    padding-right: 5px;
+}
+
 .parent {
     background-color: cadetblue;
 }
