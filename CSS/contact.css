@@ -1,54 +1,52 @@
-body, html {
-    height: 100%
+.padding-header {
+    padding-top: 120px !important;
 }
 
-.bgimg {
-    /* Background image */
-    /* Full-screen */
+.form-border {
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07),
+    0 2px 4px rgba(0,0,0,0.07),
+    0 4px 8px rgba(0,0,0,0.07),
+    0 8px 16px rgba(0,0,0,0.07),
+    0 16px 32px rgba(0,0,0,0.07),
+    0 32px 64px rgba(0,0,0,0.07);
+}
+
+.Contact {
+    font-size: 40px;
+}
+
+.paddingLengte {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padding-left {
+    padding-left: 40px !important;
+}
+
+html {
     height: 100%;
-    /* Center the background image */
-    background-position: center;
-    /* Scale and zoom in the image */
-    background-size: cover;
-    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-    position: relative;
-    /* Add a white text color to all elements inside the .bgimg container */
-    color: white;
-    /* Add a font */
-    font-family: "Courier New", Courier, monospace;
-    /* Set the font-size to 25 pixels */
-    font-size: 25px;
+}
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+.content {
+    padding: 20px;
+}
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
 }
 
-.black {
-    background-color: #000;
+.padding-bottom {
+    padding-bottom: 70px;
 }
 
-/* Position text in the top-left corner */
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
-}
-
-/* Position text in the bottom-left corner */
-.bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
-}
-
-/* Position text in the middle */
-.middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-/* Style the <hr> element */
-hr {
-    margin: auto;
-    width: 40%;
+.padding-bottom-form {
+    padding-bottom: 3px;
 }
