@@ -1,0 +1,18 @@
+Username:
+eliasgrinwis27@gmail.com
+
+password:
+C7A9F38B9D842F08B783C033EAE7B3B7526C
+
+Server:
+smtp.elasticemail.com
+
+Port:
+2525
+
+Security Token Email:
+
+fbbc2bca-45eb-4f7a-a21b-2bda6f5ae81e
+
+backup code:
+696760

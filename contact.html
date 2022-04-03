@@ -19,28 +19,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="https://cdn.myonlinestore.eu/948b7b52-6be1-11e9-a722-44a8421b9960/favicon.ico?t=1647539840" />
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="CSS/contact.css">
     <link rel="stylesheet" href="CSS/style.css">
-
-    <style>
-        .green {
-            background-color: green;
-        }
-    </style>
 </head>
 <body>
-<div class="content">
+<div class="">
     <nav class="navbar navbar-expand-lg navbar-light shadow-0 fixed-top background-white">
         <div class="container">
             <a class="navbar-brand groteNav" href="index.html">Sus &amp; Mus</a>
             <p class="padding-right">
-                <button class="navbar-toggler collapsed navbar-hamburger" type="button" data-toggle="collapse" data-target="#collapsemenu" aria-controls="collapsemenu" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </p>
 
-            <div class="collapse navbar-collapse text-center" id="collapsemenu">
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="index.html#welkom">Welkom</a>
@@ -83,74 +76,74 @@
         </div>
     </nav>
 
-    <div class="container padding-header padding-bottom">
-        <div class="form-border">
-            <h1 class="text-center">Contact</h1>
-                <div class="row">
-                    <div class="col-md-6 w3-padding-top-24 padding-bottom-form">
-                        <label for="naam" class="form-label">Naam</label>
-                        <input type="text" class="form-control" id="naam" name="naam" aria-describedby="emailHelp" placeholder="Naam">
-                    </div>
-                    <div class="col-md-6 w3-padding-top-24 padding-bottom-form">
-                        <label for="Email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="Email" name="Email" placeholder="Email" required>
-                    </div>
-                    <div class="col-md-12 w3-padding-top-24 padding-bottom-form">
-                        <label for="Telefoonnummer" class="form-label">Telefoonnummer</label>
-                        <input type="tel" class="form-control" id="Telefoonnummer" name="Telefoonnummer" placeholder="Telefoonnummer">
-                    </div>
-                    <div class="col-md-12 w3-padding-top-24 padding-bottom-form">
-                        <label for="Bericht" class="form-label">Bericht</label>
-                        <textarea class="form-control" id="Bericht" name="Bericht" rows="3"></textarea>
-                    </div>
-                    <div class="col-md-12 form-check w3-padding-top-24 padding-left padding-bottom-form">
-                        <input type="checkbox" class="form-check-input" id="nieuwsbrief" name="Nieuwsbrief">
-                        <label class="form-check-label" for="nieuwsbrief">Ik wil graag de nieuwsbrief ontvangen</label>
-                    </div>
+    <div class="container-form">
+        <form method="post" onsubmit="sendEmail(); reset(); return false;">
+            <h3>Contact</h3>
+            <label for="naam"></label><input type="text" id="naam" placeholder="Naam" required>
+            <label for="email"></label><input type="email" id="email" placeholder="Email" required>
+            <label for="telefoonnummer"></label><input type="text" id="telefoonnummer" placeholder="Telefoonnummer" required>
+            <label for="bericht"></label><textarea name="bericht" id="bericht" rows="4" placeholder="Waarmee kan ik je helpen?" required></textarea>
+            <button type="submit">Verzenden</button>
+        </form>
 
-                    <div class="w3-padding-top-24 padding-bottom-form">
-                        <button id="button-form" type="submit" class="btn btn-primary">Verzenden</button>
-                    </div>
-                </div>
-        </div>
     </div>
-</div>
+    <div class="footer">
+        <footer class="parent">
+            <div class="container">
+                <div class="row padding-main">
+                    <div class=" text-center col-md-6">
+                        <h3>Social Media</h3>
+                        <div class="row">
 
-<div class="footer">
-    <footer class="parent">
-        <div class="container">
-            <div class="row padding-main">
-                <div class=" text-center col-md-6">
-                    <h3>Social Media</h3>
-                    <div class="row">
-
-                        <div class="col-md-6">
-                            <a class="w3-text-black w3-hover-text-white" href="https://www.instagram.com/susenmus/">
-                                <p class="icongrote"><i class="fab fa-instagram"><br><span class="instagram">Instagram</span></i></p></a>
-                        </div>
-                        <div class="col-md-6">
-                            <a class="w3-text-black w3-hover-text-white" href="https://www.facebook.com/handgemaaktejuwelen/">
-                                <p class="icongrote"><i class="fa-brands fa-facebook"><br><span class="facebook">Facebook</span></i></p></a>
+                            <div class="col-md-6">
+                                <a class="w3-text-black w3-hover-text-white" href="https://www.instagram.com/susenmus/">
+                                    <p class="icongrote"><i class="fab fa-instagram"><br><span class="instagram">Instagram</span></i></p></a>
+                            </div>
+                            <div class="col-md-6">
+                                <a class="w3-text-black w3-hover-text-white" href="https://www.facebook.com/handgemaaktejuwelen/">
+                                    <p class="icongrote"><i class="fa-brands fa-facebook"><br><span class="facebook">Facebook</span></i></p></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class=" text-center col-md-6">
-                    <h3>Contact</h3>
-                    <div>
-                        <p><i class="fa-solid fa-location-dot maxgrote"></i> Koningsbaan 57 <br> 2560 Nijlen <br>                     <a class="w3-text-black phone2 w3-hover-text-white" href="tel:0496123897"><i class="fa-solid fa-phone"></i> 0496/12 38 97</a>
-                            <br> <a class="w3-text-black phone2 w3-hover-text-white" href="mailto:susenmus@hotmail.com"><i class="fa-solid fa-envelope"></i> susenmus@hotmail.com</a>
-                        </p>
+                    <div class=" text-center col-md-6">
+                        <h3>Contact</h3>
+                        <div>
+                            <p><i class="fa-solid fa-location-dot maxgrote"></i> Koningsbaan 57 <br> 2560 Nijlen <br>                     <a class="w3-text-black phone2 w3-hover-text-white" href="tel:0496123897"><i class="fa-solid fa-phone"></i> 0496/12 38 97</a>
+                                <br> <a class="w3-text-black phone2 w3-hover-text-white" href="mailto:susenmus@hotmail.com"><i class="fa-solid fa-envelope"></i> susenmus@hotmail.com</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="darkColor d-flex align-items-center justify-content-center padding-footer">
-            <div><i class="fa-solid fa-copyright"></i> 2017 - 2022 Sus &amp; Mus </div>
-        </div>
+            <div class="darkColor d-flex align-items-center justify-content-center padding-footer">
+                <div><i class="fa-solid fa-copyright"></i> 2017 - 2022 Sus &amp; Mus </div>
+            </div>
 
-    </footer>
+        </footer>
+    </div>
+
 </div>
 
+
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script type="text/javascript">
+    function sendEmail() {
+        Email.send({
+            SecureToken : "fbbc2bca-45eb-4f7a-a21b-2bda6f5ae81e",
+            To : 'eliasgrinwis27@gmail.com',
+            From : 'eliasgrinwis27@gmail.com',
+            Subject: "Nieuw Bericht Sus en Mus",
+            Body: "Naam: " +  document.getElementById("naam").value
+                + "<br> Email: " + document.getElementById("email").value
+                + "<br> TelefoonNummer: " + document.getElementById("telefoonnummer").value
+                + "<br> Bericht: " + document.getElementById("bericht").value,
+
+        })
+            .then(
+                bericht => alert("Bericht is successful verzonden"));
+    }
+</script>
 <script src="JS/contact.js"></script>
 
 </body>
