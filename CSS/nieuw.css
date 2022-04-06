@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1 {
+    font-family: 'Lato', sans-serif;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial, serif;
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.padding-shop {
+    margin-bottom: 40px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.zoom {
+
+}
+
+.grote-tekst {
+    font-size: 14px;
+}
+
+.zoom {
+    background-position: 50% 50%;
+    position: relative;
+    overflow: hidden;
+    cursor: zoom-in;
+}
+.zoom img:hover {
+    opacity: 0;
+}
+.zoom img {
+    transition: opacity .5s;
+    display: block;
+    width: 100%;
+}
+
+.width2 {
+    width: 99%;
+}
+
+.width3 {
+    width: 76.5%;
+}
+
+.width4 {
+    width: 100%;
+}
+
+.padding-top-nieuw {
+    padding-top: 110px;
+}
