@@ -69,18 +69,52 @@ h1 {
     width: 100%;
 }
 
-.width2 {
-    width: 99%;
-}
+
 
 .width3 {
-    width: 76.5%;
+    width: 100%;
 }
 
 .width4 {
+    width: 89%;
+}
+
+.width5 {
+    width: 100%;
+}
+
+.width6 {
+    width: 100%;
+}
+
+.width7 {
+    width: 100%;
+}
+
+.width8 {
     width: 100%;
 }
 
 .padding-top-nieuw {
     padding-top: 110px;
+}
+
+.omschrijving {
+    background-color: #ffffff !important;
+    color: #000 !important;
+    border: 1px solid #000 !important;
+}
+
+
+.badge {
+    background-color: #6394F8;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
 }

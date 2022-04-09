@@ -2,6 +2,7 @@
 
 const productsEl = document.querySelector(".products");
 const cartItemsEL = document.querySelector(".cart-items");
+const subTotalEL = document.querySelector(".subtotal");
 
 // RENDER PRODUCTS
 function renderProducts() {
@@ -49,8 +50,23 @@ function  addToCart(id) {
 
 function updateCart() {
     renderCartItems();
-    // renderSubTotal();
+    renderSubTotal();
 }
+
+// CALCULATE AND RENDER SUBTOTAL
+function renderSubTotal() {
+    let totalPrice = 0, totalItems = 0;
+    let counter = 0
+    cart.forEach( (item) => {
+        counter += 1
+        totalPrice += item.price;
+        totalItems += item.counter;
+    })
+
+    subTotalEL.innerHTML = ` <div class="col" style="padding-left:0;">${totalItems} ITEMS </div>
+                             <div class="col text-right">&euro; ${totalPrice}</div>`
+}
+
 
 // RENDER CARTITEMS
 function renderCartItems() {
@@ -65,8 +81,15 @@ function renderCartItems() {
                             <div class="row">${item.description}</div>
                         </div>
                         <div class="col-2">
-                            <label for="quantity">Hoeveelheid:</label>
-                            <input class="counter" id="quantity" type="number" value ="1" class="form-control quantity-input">
+                        <div class="d-flex">
+                        <form id='myform' method='POST' class='quantity d-flex' action='#' style="width: ">
+                            <input type='button' value='-' class='qtyminus minus' field='quantity' />
+                            <input type='text' name='quantity' value='0' class='qty' />
+                            <input type='button' value='+' class='qtyplus plus' field='quantity' />
+                        </form>
+                       
+                        </div>
+                        
                         </div>
                        
                                                 

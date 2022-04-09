@@ -22,3 +22,19 @@ plusButton.addEventListener('click', event => {
     const currentValue = Number(inputField.value) || 0;
     inputField.value = currentValue + 1;
 });
+
+$(document).ready(function(){
+    //create variable
+    let counts = 0;
+    $(".addtocart").click(function () {
+        //to number and increase to 1 on each click
+        counts += +1;
+        $(".cart-counter").animate({
+            //show span with number
+            opacity: 1
+        }, 300, function () {
+            //write number of counts into span
+            $(this).text(counts);
+        });
+    });
+});

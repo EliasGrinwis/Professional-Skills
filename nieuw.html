@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="CSS/contact.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/nieuw.css">
-    <link rel="stylesheet" href="CSS/rekening.css">
 
 </head>
 <body>
@@ -61,7 +60,7 @@
 
             <ul class="navbar-nav ">
                 <li class="nav-item me-3 me-lg-0 ">
-                    <a class="nav-link" href="rekening.html">
+                    <a class="nav-link" href="#">
                         <i class="fas fa-shopping-cart"></i>
                     </a>
                 </li>
@@ -83,70 +82,90 @@
 
 <div class="container">
     <h1 class="padding-top-nieuw text-center">Wat is nieuw in de winkel?</h1>
-        <div class=" w3-padding-top-64">
-            <div class="products-list">
-                <div class="products row">
-                    <!-- Render Products here -->
-
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="row">
-                            <div class="col-md-8 cart">
-                                <div class="title ">
-                                    <div class="row">
-                                        <div class="col">
-                                            <h4><b>Winkelmandje</b></h4>
-                                        </div>
-                                        <div class="col align-self-center text-right text-muted">3 items</div>
-                                    </div>
-                                </div>
-                                <div class="product-list">
-                                    <div class="cart-items">
-                                        <!-- Render Items here -->
-                                        <div class="row">
-                                            <div class="row main align-items-center">
-                                                <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/ba3tvGm.jpg"></div>
-                                                <div class="col">
-                                                    <div class="row text-muted">Shirt</div>
-                                                    <div class="row">Cotton T-shirt</div>
-                                                </div>
-
-                                                <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
-
-                                                <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="back-to-shop"><a href="nieuw.html">&leftarrow; Verder shoppen</a><span class="text-muted"></span></div>
-                            </div>
-                            <div class="col-md-4 summary">
-                                <div>
-                                    <h5><b>Overzicht</b></h5>
-                                </div>
-                                <hr>
-                                <div class="row">
-                                    <div class="col" style="padding-left:0;">ITEMS 3</div>
-                                    <div class="col text-right">&euro; 132.00</div>
-                                </div>
-                                <form>
-                                    <p>Verzendkosten</p> <select>
-                                    <option class="text-muted">Standaard verzendkosten- &euro;5.00</option>
-                                </select>
-                                    <p>Kortingscode</p> <input id="code" placeholder="kortingscode">
-                                </form>
-                                <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
-                                    <div class="col">TOTALE PRIJS</div>
-                                    <div class="col text-right">&euro; 137.00</div>
-                                </div> <button class="btn">Afrekenen</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="row w3-padding-top-64">
+        <div class="card col-sm-12 col-md-4 padding-shop" id="card">
+            <figure class="zoom width1" onmousemove="zoom(event)" style="background-image: url(Fotos/kleedje.jpg)" >
+                <img src="Fotos/kleedje.jpg" style="width:100%" alt="armband1"/>
+            </figure>
+            <h2>Kleedje</h2>
+            <p class="price">€ 20,00</p>
+            <p class="grote-tekst">Kleedje met shortje onder S/M</p>
+            <p><button> <i class="fas fa-shopping-cart"></i> In winkelwagen</button></p>
         </div>
+
+        <div class="card col-sm-12 col-md-4  padding-shop">
+            <figure class="zoom width2" onmousemove="zoom(event)" style="background-image: url(Fotos/kleedBloemen.jpg)"  >
+                <img src="Fotos/kleedBloemen.jpg" style="width:100%" alt="armband2"/>
+            </figure>
+            <h2>Broekpak</h2>
+            <p class="price">€ 30,00</p>
+            <p class="grote-tekst">Tetra broekpak TU</p>
+            <p><button><i class="fas fa-shopping-cart"></i> In winkelwagen</button></p>
+        </div>
+
+
+
+        <div class="card col-sm-12 col-md-4  padding-shop">
+            <figure class="zoom width3 center" onmousemove="zoom(event)" style="background-image: url(Fotos/tetraBroekpak.jpg)"  >
+                <img src="Fotos/tetraBroekpak.jpg"  style="width:100%" alt="kleedje"/>
+            </figure>
+            <h2>Kleedje</h2>
+            <p class="price">€ 12,50</p>
+            <p class="grote-tekst">Kleed bloemen katoen L/Xl</p>
+            <p><button><i class="fas fa-shopping-cart"></i> In winkelwagen</button></p>
+        </div>
+
+        <div class="card col-sm-12 col-md-4  padding-shop">
+            <figure class="zoom width4 center" onmousemove="zoom(event)" style="background-image: url(Fotos/zwarteVest.jpg)"  >
+                <img src="Fotos/zwarteVest.jpg" style="width:100%" alt="ketting"/>
+            </figure>
+            <h2>Vest zwart</h2>
+            <p class="price">€ 27,50</p>
+            <p class="grote-tekst">Vest zwart</p>
+            <p><button><i class="fas fa-shopping-cart"></i> In winkelwagen</button></p>
+        </div>
+
+        <div class="card col-sm-12 col-md-4  padding-shop">
+            <figure class="zoom width5 center" onmousemove="zoom(event)" style="background-image: url(Fotos/rozeKleedje.jpg)"  >
+                <img src="Fotos/rozeKleedje.jpg" style="width:100%" alt="ketting"/>
+            </figure>
+            <h2>Kleedje</h2>
+            <p class="price">€ 13,50</p>
+            <p class="grote-tekst">Kleedje halflang kraagje TU zalm</p>
+            <p><button><i class="fas fa-shopping-cart"></i> In winkelwagen</button></p>
+        </div>
+
+        <div class="card col-sm-12 col-md-4  padding-shop">
+            <figure class="zoom width6 center" onmousemove="zoom(event)" style="background-image: url(Fotos/langeVest.jpg)"  >
+                <img src="Fotos/langeVest.jpg" style="width:100%" alt="ketting"/>
+            </figure>
+            <h2>Lange vest</h2>
+            <p class="price">€ 30,00</p>
+            <p class="grote-tekst">Lange vest kaki TU</p>
+            <p><button><i class="fas fa-shopping-cart"></i> In winkelwagen</button></p>
+        </div>
+
+        <div class="card col-sm-12 col-md-4  padding-shop">
+            <figure class="zoom width7 center" onmousemove="zoom(event)" style="background-image: url(Fotos/blauweTrui.jpg)"  >
+                <img src="Fotos/blauweTrui.jpg" style="width:100%" alt="ketting"/>
+            </figure>
+            <h2>Truitje</h2>
+            <p class="price">€ 21,00</p>
+            <p class="grote-tekst">Truitje korte mouw TU petrol</p>
+            <p><button><i class="fas fa-shopping-cart"></i> In winkelwagen</button></p>
+        </div>
+
+        <div class="card col-sm-12 col-md-4  padding-shop">
+            <figure class="zoom width8 center" onmousemove="zoom(event)" style="background-image: url(Fotos/rozeHemd.jpg)"  >
+                <img src="Fotos/rozeHemd.jpg" style="width:100%" alt="ketting"/>
+            </figure>
+            <h2>Hemd</h2>
+            <p class="price">€ 10,50</p>
+            <p class="grote-tekst">Hemd Fuschia S</p>
+            <p><button><i class="fas fa-shopping-cart"></i> In winkelwagen</button></p>
+        </div>
+
+    </div>
 </div>
 
 <div class="footer">
@@ -184,19 +203,10 @@
     </footer>
 </div>
 
-
-
 <script>
-    const porductsListEl = document.querySelector(".products-list");
-    const seeMoreBtn = document.querySelector(".see-more-btn");
 
-    seeMoreBtn.addEventListener('click', () => {
-        porductsListEl.scrollIntoView({behavior: "smooth"})
-    })
 </script>
 
-<script src="JS/products.js"></script>
-<script src="JS/app.js"></script>
 
 <script src="JS/nieuw.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

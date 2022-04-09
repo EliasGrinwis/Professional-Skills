@@ -5,7 +5,7 @@ const products = [
         price: 12.00,
         instock: 10,
         description:
-            "Armbandje stainless steel effen goud dun",
+            "Kleedje met shortje onder",
         imgSrc: "../Fotos/armband1.jpg",
         number: 1,
     },
