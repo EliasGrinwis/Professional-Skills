@@ -1,0 +1,33 @@
+{
+  "name": "Codes",
+  "version": "1.0.0",
+  "description": "$description$",
+  "main": "index.js",
+  "author": {
+    "name": "Elias",
+    "email": "john.doe@example.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/$owner$/Codes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/$owner$/Codes/issues"
+  },
+  "homepage": "https://github.com/$owner$/Codes#readme",
+  "license": "$MIT$",
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo '[Husky] pre-commit triggered'",
+      "pre-push": "echo '[Husky] pre-push triggered'"
+    }
+  },
+  "dependencies": {
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.4.8"
+  }
+}
