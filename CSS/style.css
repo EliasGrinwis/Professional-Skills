@@ -154,6 +154,16 @@ div {
     -ms-transition: all 1s ease;
 }
 
+.underline {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
 .margin-right {
     margin-right: 60px;
 }

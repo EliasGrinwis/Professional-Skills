@@ -2,15 +2,16 @@
 .container-error {
     height: auto;
     position: relative;
+
 }
 
 .vertical-center {
-    margin: 0;
     position: absolute;
+    left: 50%;
     top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    margin-left: 20%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    padding: 10px;
 }
 
 h1 {
@@ -25,6 +26,28 @@ h1 {
         padding-left: 20px;
         padding-right: 20px;
         font-size: 2em;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .vertical-center {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width: 591px){
+    .vertical-center {
+        position: absolute;
+        left: 50%;
+        top: 75%;
+        text-align: center;
+        transform: translate(-50%, -50%);
     }
 }
 
