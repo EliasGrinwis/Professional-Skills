@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     height: 100%;
 }
@@ -63,6 +67,55 @@ form button {
     border-radius: 30px;
 }
 
+form button:hover {
+    padding: 15px;
+    background: black;
+    color: #ffffff;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
 .padding-left-form {
     padding-left: 20px;
+}
+
+.section-form {
+    width: 37em;
+    margin: 3em auto;
+    background-color: black;
+    padding: 2em;
+}
+
+.section-form .intro {
+    margin-bottom: 2em;
+}
+
+input[type=text] {
+    height: 45px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: .9em;
+    color: black;
+    font-weight: 300;
+    padding: .5em 1em;
+    border: none;
+    font-weight: 300;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    margin: 0;
+    padding: .5em 2em;
+    background: #636363;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
 }
