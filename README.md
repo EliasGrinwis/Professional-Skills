@@ -1,2 +1,2 @@
 # Professional-Skills
-Dit is mijn project!
+Hier kan je alle code terug vinden!
